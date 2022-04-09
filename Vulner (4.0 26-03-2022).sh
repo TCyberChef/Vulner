@@ -37,7 +37,7 @@
 		        echo
 		        echo "Your Input: $0 $1 "
 		        echo
-		        echo "Vulner:  2.6V (CyberChef) " ; sudo -k ; exit  # make sure to ask for password on next sudo
+		        echo "Vulner: 4.0v (TCyberChef) " ; sudo -k ; exit  # make sure to ask for password on next sudo
 		    
 	fi
 	
@@ -81,7 +81,7 @@
                     echo
                     echo "Usage: sudo ./vulner {Network Range} "
                     echo
-                    echo "Vulner:  2.6V (CyberChef) "
+                    echo "Vulner: 4.0v (TCyberChef) "
                     exit 1
                 elif [[ "$ipSUBNET" -ge 32 ]];
                 then
@@ -97,7 +97,7 @@
                     echo
                     echo "Usage: sudo ./vulner {Network Range} "
                     echo
-                    echo "Vulner:  2.6V (CyberChef) "    
+                    echo "Vulner: 4.0v (TCyberChef) "    
                     exit 1
                 fi
 ip=$1
