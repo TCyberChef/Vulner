@@ -20,7 +20,9 @@
 		    sleep 2
 		function install()
 		{
-			apt update && apt install tshark nmap masscan 
+			apt update && apt install tshark nmap masscan git
+            git clone https://github.com/offensive-security/exploitdb.git /opt/exploitdb
+            sudo ln -sf /opt/exploitdb/searchsploit /usr/local/bin/searchsploit
 		}
 		sleep 1
 		echo 
