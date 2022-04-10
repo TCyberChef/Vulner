@@ -1,3 +1,11 @@
+# About Me
+I do not consider myself a programmer
+I would gladly accept pointers from others to improve the code and make it more efficient, or simplify the code.  
+If you would like to make any comments then please feel free to email me at 
+```
+tcyberchef@gmail.com
+```
+
 # Vulner
 The Bash script uses well known tools in the industry , and automates them for the user.
 Please use this for your own goodwill.
@@ -33,7 +41,7 @@ $ apt install git
 $ git clone https://github.com/TCyberChef/Vulner
 ```
 
-- Change to cloned directory and run `zphisher.sh` -
+- Change to cloned directory and run `Vulner.sh` -
 ```
 $ cd Vulner
 $ bash Vulner.sh
@@ -45,7 +53,7 @@ $ chmod 777 Vulner.sh
 $ ./Vulner.sh
 ```
 
-- On first launch, It'll install the dependencies and that's it. `Zphisher` is installed.
+- On first launch, It'll install the dependencies and that's it. `Vulner.sh` is installed.
 
 
 The script requires the user to have the tools installed on his machine.
